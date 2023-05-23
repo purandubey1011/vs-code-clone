@@ -57,7 +57,14 @@
 
 
     </div>
-    <div class="right"></div>
+    <div class="right">
+        <div class="top_open_file_name_div">
+            <div class="open_file_name"><%= filename %></div>
+        </div>
+        <textarea class="text_div" contenteditable="true">
+          <%= filedata %>
+        </textarea>
+    </div>
   </div>
 
   <script src="/javascripts/script.js"></script>
